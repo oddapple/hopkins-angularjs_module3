@@ -1,7 +1,23 @@
 .container {
   background-color: #ededed;
-  height: 768px;
+  min-height: 750px;
 }
+found-items {
+  float: left;
+}
+.nothingfound {
+  margin-left: 5px;
+}
+
+.box {
+  background-color: white;
+  margin: 5px;
+  margin-left: -65px;
+  padding: 5px;
+  border-radius: 5px;
+
+}
+
 h1 {
   margin-bottom: 20px;
   font-size: 30px;
@@ -24,7 +40,6 @@ input[type="text"] {
 }
 .narrow-button {
   float: left;
-  margin-left: 10px;
 }
 .loader {
   display: none;
@@ -47,6 +62,7 @@ input[type="text"] {
   width: 3em;
   height: 3em;
 }
+
 @-webkit-keyframes load8 {
   0% {
     -webkit-transform: rotate(0deg);

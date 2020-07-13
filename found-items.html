@@ -1,0 +1,12 @@
+    <ol>
+        <ul ng-repeat='item in menu.found'>
+            <div class="box">
+                <h4>{{item.name}} </h4>
+                <p>Short Name: {{item.short_name}}</p>
+                <p>Description: {{item.description}} </p>
+                <button class="btn btn-info" ng-click='menu.onRemove({index: $index})'>Don't want this one!</button>
+            </div>
+        </ul>
+    </ol>
+    <div class="nothingfound">{{menu.empty}}</div>
+
